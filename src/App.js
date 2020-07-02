@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Sample from './Views/Sample';
+import Sam from './Views/Sample1';
 
 function App() {
   return (
     <div className="App">
+      <Sample></Sample>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -16,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+         <Sam></Sam>
         </a>
       </header>
     </div>
