@@ -1,7 +1,11 @@
-import React from "react-dom";
-import ReactDom from "react-dom";
+import React, { Component } from "react";
 
-function New() {
-  return <h1>hello world</h1>;
+function New(params) {
+  return (
+    <div>
+      <h1>hai </h1>
+    </div>
+  );
 }
+
 export default New;
